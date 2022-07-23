@@ -16,6 +16,7 @@
 		7CC2693B288BC92100FC2763 /* CashflowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2693A288BC92100FC2763 /* CashflowTests.swift */; };
 		7CC26945288BC92100FC2763 /* CashflowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC26944288BC92100FC2763 /* CashflowUITests.swift */; };
 		7CC26947288BC92100FC2763 /* CashflowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC26946288BC92100FC2763 /* CashflowUITestsLaunchTests.swift */; };
+		7CC26954288BD29B00FC2763 /* CashflowTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC26953288BD29A00FC2763 /* CashflowTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7CC26940288BC92100FC2763 /* CashflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashflowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC26944288BC92100FC2763 /* CashflowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashflowUITests.swift; sourceTree = "<group>"; };
 		7CC26946288BC92100FC2763 /* CashflowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashflowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7CC26953288BD29A00FC2763 /* CashflowTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashflowTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				7CC26925288BC91900FC2763 /* SceneDelegate.swift */,
 				7CC26927288BC91900FC2763 /* ViewController.swift */,
 				7CC26929288BC91900FC2763 /* Main.storyboard */,
+				7CC26953288BD29A00FC2763 /* CashflowTextField.swift */,
 				7CC2692C288BC92000FC2763 /* Assets.xcassets */,
 				7CC2692E288BC92000FC2763 /* LaunchScreen.storyboard */,
 				7CC26931288BC92000FC2763 /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				7CC26928288BC91900FC2763 /* ViewController.swift in Sources */,
 				7CC26924288BC91900FC2763 /* AppDelegate.swift in Sources */,
+				7CC26954288BD29B00FC2763 /* CashflowTextField.swift in Sources */,
 				7CC26926288BC91900FC2763 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

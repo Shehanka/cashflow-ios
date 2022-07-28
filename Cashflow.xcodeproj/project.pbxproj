@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C6B23332890DFE100B17C0B /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6B23322890DFE100B17C0B /* CommonFunctions.swift */; };
+		7C6B23372890FA8500B17C0B /* HomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6B23362890FA8500B17C0B /* HomeButton.swift */; };
+		7C6B23392890FED600B17C0B /* HomeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6B23382890FED600B17C0B /* HomeButtonView.swift */; };
+		7C6B233B2891044100B17C0B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6B233A2891044100B17C0B /* TabBarController.swift */; };
+		7C6B233D2891057500B17C0B /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6B233C2891057500B17C0B /* ScrollViewController.swift */; };
+		7C6B233F2891369000B17C0B /* SavingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6B233E2891369000B17C0B /* SavingsViewController.swift */; };
+		7CAE486B288E9077002C9D3B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAE486A288E9077002C9D3B /* HomeViewController.swift */; };
 		7CC26924288BC91900FC2763 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC26923288BC91900FC2763 /* AppDelegate.swift */; };
 		7CC26926288BC91900FC2763 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC26925288BC91900FC2763 /* SceneDelegate.swift */; };
 		7CC26928288BC91900FC2763 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC26927288BC91900FC2763 /* ViewController.swift */; };
@@ -37,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C6B23322890DFE100B17C0B /* CommonFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
+		7C6B23362890FA8500B17C0B /* HomeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButton.swift; sourceTree = "<group>"; };
+		7C6B23382890FED600B17C0B /* HomeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtonView.swift; sourceTree = "<group>"; };
+		7C6B233A2891044100B17C0B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		7C6B233C2891057500B17C0B /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		7C6B233E2891369000B17C0B /* SavingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsViewController.swift; sourceTree = "<group>"; };
+		7CAE486A288E9077002C9D3B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7CC26920288BC91900FC2763 /* Cashflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cashflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC26923288BC91900FC2763 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CC26925288BC91900FC2763 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,9 +92,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C6B23302890D64400B17C0B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7CC26929288BC91900FC2763 /* Main.storyboard */,
+				7CC2692E288BC92000FC2763 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7C6B23312890DF8100B17C0B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7C6B23322890DFE100B17C0B /* CommonFunctions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7C6B23342890E03800B17C0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7CC26953288BD29A00FC2763 /* CashflowTextField.swift */,
+				7C6B23382890FED600B17C0B /* HomeButtonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7C6B23352890F9CF00B17C0B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7C6B23362890FA8500B17C0B /* HomeButton.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7CAE486C288E9090002C9D3B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7CC26927288BC91900FC2763 /* ViewController.swift */,
+				7CAE486A288E9077002C9D3B /* HomeViewController.swift */,
+				7C6B233A2891044100B17C0B /* TabBarController.swift */,
+				7C6B233C2891057500B17C0B /* ScrollViewController.swift */,
+				7C6B233E2891369000B17C0B /* SavingsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		7CC26917288BC91900FC2763 = {
 			isa = PBXGroup;
 			children = (
+				7C6B23352890F9CF00B17C0B /* Models */,
 				7CC26922288BC91900FC2763 /* Cashflow */,
 				7CC26939288BC92100FC2763 /* CashflowTests */,
 				7CC26943288BC92100FC2763 /* CashflowUITests */,
@@ -101,13 +162,13 @@
 		7CC26922288BC91900FC2763 /* Cashflow */ = {
 			isa = PBXGroup;
 			children = (
+				7C6B23342890E03800B17C0B /* View */,
+				7C6B23312890DF8100B17C0B /* Utils */,
+				7C6B23302890D64400B17C0B /* Storyboards */,
+				7CAE486C288E9090002C9D3B /* View Controllers */,
 				7CC26923288BC91900FC2763 /* AppDelegate.swift */,
 				7CC26925288BC91900FC2763 /* SceneDelegate.swift */,
-				7CC26927288BC91900FC2763 /* ViewController.swift */,
-				7CC26929288BC91900FC2763 /* Main.storyboard */,
-				7CC26953288BD29A00FC2763 /* CashflowTextField.swift */,
 				7CC2692C288BC92000FC2763 /* Assets.xcassets */,
-				7CC2692E288BC92000FC2763 /* LaunchScreen.storyboard */,
 				7CC26931288BC92000FC2763 /* Info.plist */,
 			);
 			path = Cashflow;
@@ -261,10 +322,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C6B23332890DFE100B17C0B /* CommonFunctions.swift in Sources */,
 				7CC26928288BC91900FC2763 /* ViewController.swift in Sources */,
 				7CC26924288BC91900FC2763 /* AppDelegate.swift in Sources */,
+				7C6B233B2891044100B17C0B /* TabBarController.swift in Sources */,
+				7C6B23372890FA8500B17C0B /* HomeButton.swift in Sources */,
 				7CC26954288BD29B00FC2763 /* CashflowTextField.swift in Sources */,
 				7CC26926288BC91900FC2763 /* SceneDelegate.swift in Sources */,
+				7C6B233D2891057500B17C0B /* ScrollViewController.swift in Sources */,
+				7C6B233F2891369000B17C0B /* SavingsViewController.swift in Sources */,
+				7CAE486B288E9077002C9D3B /* HomeViewController.swift in Sources */,
+				7C6B23392890FED600B17C0B /* HomeButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
